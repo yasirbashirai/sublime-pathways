@@ -144,15 +144,15 @@ const Services = () => {
                 <ul className="space-y-3">
                   {service.features.map((feature, j) => (
                     <li key={j} className="flex items-start gap-3">
-                      <FaCheckCircle className="text-green shrink-0 mt-1" />
+                      <FaCheckCircle className="text-sp-green shrink-0 mt-1" />
                       <span className="text-gray-700">{feature}</span>
                     </li>
                   ))}
                 </ul>
               </div>
               <div className={`${i % 2 === 1 ? 'lg:order-1' : ''}`}>
-                <div className="bg-gradient-to-br from-sage to-cream rounded-3xl p-10 text-center shadow-lg border border-green/10">
-                  <div className="w-24 h-24 mx-auto mb-6 rounded-full bg-gradient-to-br from-teal-dark to-green text-white flex items-center justify-center shadow-xl text-5xl">
+                <div className="bg-gradient-to-br from-sage to-cream rounded-3xl p-10 text-center shadow-lg border border-sp-green/10">
+                  <div className="w-24 h-24 mx-auto mb-6 rounded-full bg-gradient-to-br from-teal-dark to-sp-green text-white flex items-center justify-center shadow-xl text-5xl">
                     {service.icon}
                   </div>
                   <h4 className="text-xl font-bold text-teal-dark mb-2">{service.title}</h4>
@@ -193,7 +193,7 @@ const Services = () => {
       <section className="py-16 bg-green-dark text-white text-center">
         <div className="max-w-3xl mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Need More Information?</h2>
-          <p className="text-lg text-green-100 mb-8">
+          <p className="text-lg text-gray-200 mb-8">
             Our team is ready to answer your questions and help you understand how our services can support your child.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

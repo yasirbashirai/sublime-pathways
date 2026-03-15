@@ -129,7 +129,7 @@ const Home = () => {
                 icon: <FaLeaf className="text-4xl" />,
                 title: 'Grow',
                 desc: 'We equip residents with coping mechanisms, interpersonal skills, and problem-solving techniques that foster personal and educational growth.',
-                color: 'from-green-dark to-green',
+                color: 'from-green-dark to-sp-green',
               },
               {
                 icon: <FaStar className="text-4xl" />,
@@ -200,10 +200,10 @@ const Home = () => {
               <div className="relative bg-white rounded-3xl p-8 shadow-xl">
                 <div className="grid grid-cols-2 gap-6">
                   {[
-                    { icon: <FaShieldAlt className="text-3xl text-teal" />, label: 'Safe Environment' },
+                    { icon: <FaShieldAlt className="text-3xl text-sp-teal" />, label: 'Safe Environment' },
                     { icon: <FaHandHoldingHeart className="text-3xl text-green-dark" />, label: 'Compassionate Care' },
                     { icon: <FaUserFriends className="text-3xl text-gold" />, label: 'Family Support' },
-                    { icon: <FaHeart className="text-3xl text-green" />, label: 'Holistic Healing' },
+                    { icon: <FaHeart className="text-3xl text-sp-green" />, label: 'Holistic Healing' },
                   ].map((item, i) => (
                     <div key={i} className="bg-sage rounded-2xl p-6 text-center hover:shadow-lg transition-all hover:-translate-y-1">
                       <div className="mb-3">{item.icon}</div>

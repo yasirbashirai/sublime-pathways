@@ -146,7 +146,7 @@ const About = () => {
               },
             ].map((value, i) => (
               <div key={i} className="group bg-cream hover:bg-white rounded-2xl p-8 border-2 border-transparent hover:border-gold transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
-                <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-teal-dark to-green text-white flex items-center justify-center mb-4 group-hover:scale-110 transition-transform shadow-lg">
+                <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-teal-dark to-sp-green text-white flex items-center justify-center mb-4 group-hover:scale-110 transition-transform shadow-lg">
                   {value.icon}
                 </div>
                 <h3 className="text-xl font-bold text-teal-dark mb-2">{value.title}</h3>

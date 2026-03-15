@@ -68,7 +68,7 @@ const Contact = () => {
               },
             ].map((info, i) => (
               <div key={i} className="bg-cream rounded-2xl p-8 text-center hover:shadow-xl transition-all hover:-translate-y-2 border-2 border-transparent hover:border-gold group">
-                <div className="w-14 h-14 mx-auto mb-4 rounded-xl bg-gradient-to-br from-teal-dark to-green text-white flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
+                <div className="w-14 h-14 mx-auto mb-4 rounded-xl bg-gradient-to-br from-teal-dark to-sp-green text-white flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
                   {info.icon}
                 </div>
                 <h3 className="font-bold text-teal-dark text-lg mb-1">{info.label}</h3>
@@ -99,7 +99,7 @@ const Contact = () => {
 
               {submitted ? (
                 <div className="bg-white rounded-3xl p-12 text-center shadow-lg">
-                  <div className="w-20 h-20 mx-auto mb-6 rounded-full bg-green text-white flex items-center justify-center text-4xl">
+                  <div className="w-20 h-20 mx-auto mb-6 rounded-full bg-sp-green text-white flex items-center justify-center text-4xl">
                     <FaCheckCircle />
                   </div>
                   <h3 className="text-2xl font-bold text-teal-dark mb-4">Message Sent!</h3>

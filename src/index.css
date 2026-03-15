@@ -1,31 +1,15 @@
-@import "tailwindcss";
-
-@theme {
-  --color-teal-dark: #0d3b4f;
-  --color-teal: #1a5c5a;
-  --color-green-dark: #1a5c3a;
-  --color-green: #2d8a4e;
-  --color-green-light: #5cb85c;
-  --color-gold: #f5b731;
-  --color-gold-light: #fdd835;
-  --color-cream: #fdf8f0;
-  --color-sage: #e8f5e9;
-  --font-heading: 'Georgia', serif;
-  --font-body: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
 html {
   scroll-behavior: smooth;
 }
 
 body {
   margin: 0;
-  font-family: var(--font-body);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #333;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-heading);
+  font-family: 'Georgia', serif;
 }
 
 @keyframes gradientShift {

@@ -80,12 +80,12 @@ const Admission = () => {
 
           <div className="relative">
             {/* Connection line */}
-            <div className="hidden lg:block absolute top-1/2 left-0 w-full h-1 bg-gradient-to-r from-teal-dark via-green to-gold transform -translate-y-1/2 z-0"></div>
+            <div className="hidden lg:block absolute top-1/2 left-0 w-full h-1 bg-gradient-to-r from-teal-dark via-sp-green to-gold transform -translate-y-1/2 z-0"></div>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-8 relative z-10">
               {steps.map((step, i) => (
                 <div key={i} className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all hover:-translate-y-2 border border-gray-100 text-center">
-                  <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-gradient-to-br from-teal-dark to-green text-white flex items-center justify-center shadow-lg">
+                  <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-gradient-to-br from-teal-dark to-sp-green text-white flex items-center justify-center shadow-lg">
                     {step.icon}
                   </div>
                   <div className="text-gold font-bold text-sm mb-1">Step {step.step}</div>
@@ -119,7 +119,7 @@ const Admission = () => {
                   'Need for behavioral modification and life skills development',
                 ].map((item, i) => (
                   <li key={i} className="flex items-start gap-3">
-                    <FaCheckCircle className="text-green shrink-0 mt-1" />
+                    <FaCheckCircle className="text-sp-green shrink-0 mt-1" />
                     <span className="text-gray-700">{item}</span>
                   </li>
                 ))}
@@ -164,7 +164,7 @@ const Admission = () => {
 
           {submitted ? (
             <div className="bg-sage rounded-3xl p-12 text-center shadow-lg">
-              <div className="w-20 h-20 mx-auto mb-6 rounded-full bg-green text-white flex items-center justify-center text-4xl">
+              <div className="w-20 h-20 mx-auto mb-6 rounded-full bg-sp-green text-white flex items-center justify-center text-4xl">
                 <FaCheckCircle />
               </div>
               <h3 className="text-2xl font-bold text-teal-dark mb-4">Thank You!</h3>
